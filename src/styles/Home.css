@@ -1,0 +1,33 @@
+.popularitems-container{
+    margin: 40px;
+    padding-bottom: 200px;
+
+}
+.popularitems{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.item{
+    border: 1px solid black;
+    height: 300px;
+
+    padding: 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+
+}
+.welcomemessage{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    height: 10em;
+    color:white;
+}
+.homecontainer{
+    background: radial-gradient(#033334,#046665)
+}
